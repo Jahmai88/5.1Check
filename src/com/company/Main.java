@@ -1,19 +1,20 @@
 package com.company;
 
 import javax.swing.*;
+import java.util.scanner.*;
 
 public class Main {
 
     public static void main(String[] args) {
-    int myAge = 0;
 
-        if (myAge >= 19);
-        System.out.print("I am 19; let me see if I can drive yet");
+        Scanner sc = new Scanner(System.in)
+            int myage = sc.nextint(); 
 
         if (myAge >= 16);
             System.out.println("I'm old enough to have a driver's license!");
 
-        if (myAge <= 16);
-            System.out.println("I'm not old enough yet!");
+        else {
+            System.out.println("I am not old enough to drive");        
+        }
     }
 }
